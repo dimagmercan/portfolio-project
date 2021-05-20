@@ -24,32 +24,30 @@ h1 {
   font-size: 36px;
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 34px;
-  }
+h2 {
+  font-size: 30px;
 }
-
 p {
   color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.5;
+}
+img {
 }
 .container {
   max-width: 800px;
 }
-
 .hero {
+  max-width: 100%;
+  padding: 100px 50px;
   background-color: var(--bg-color);
-  border-radius: 5px;
 }
-
 .hero p {
-  font-size: 18px;
   font-weight: bold;
   margin: 0;
 }
-
 .hero h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 18px;
 }
 .primary-button {
@@ -66,4 +64,19 @@ p {
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
+}
+.project-desc {
+  padding: 20px 20px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 34px;
+  }
+  .hero-desc {
+    text-align: center;
+  }
+  .project-desc {
+    padding: 0;
+    text-align: center;
+  }
 }
