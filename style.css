@@ -32,11 +32,29 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-img {
+
+a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+.about {
+  max-width: 800px;
+  line-height: 1.5;
+  background-color: var(--bg-color);
 }
 .container {
   max-width: 800px;
 }
+.tech-container {
+  max-width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .hero {
   max-width: 100%;
   padding: 100px 50px;
@@ -68,6 +86,13 @@ img {
 .project-desc {
   padding: 20px 20px;
 }
+.block {
+  display: block;
+}
+.center {
+  text-align: center;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 34px;
