@@ -101,7 +101,15 @@ a:hover {
 .center {
   text-align: center;
 }
-
+.icon {
+  font-size: 24px;
+  color: var(--branding-color);
+  padding-bottom: 10px;
+}
+.icon a {
+  font-family: var(--default-font-family);
+  font-size: 12px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 34px;
